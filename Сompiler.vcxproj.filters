@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lexical">
+      <UniqueIdentifier>{b5fc52e8-2eac-4c38-988a-779bfe8e124f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Types">
+      <UniqueIdentifier>{9888da16-4522-4e47-a3a5-6828fbd132eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lexical">
+      <UniqueIdentifier>{7999be6c-634c-458c-a68a-6253373d929e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Syntaxes">
+      <UniqueIdentifier>{79a302c7-b7c2-4467-9f89-ca521934413e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Syntaxes">
+      <UniqueIdentifier>{13e96908-d286-4ca0-9637-8cf1b437ba66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Exceptions">
+      <UniqueIdentifier>{279a6ffe-373c-4d59-b0bc-d25766dd3a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Semantics">
+      <UniqueIdentifier>{7dbee7e5-b3f0-47c9-a116-e8cce9e36525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Semantics\Node">
+      <UniqueIdentifier>{c84a9c2e-8db2-40db-82bd-06683baf0b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Semantics">
+      <UniqueIdentifier>{ce68a799-eb67-4b3a-87d9-157ac12b8dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Semantics\Node">
+      <UniqueIdentifier>{b0359b18-d5fb-40a8-be4c-4d60efe32bae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexical\Scanner.cpp">
+      <Filter>Исходные файлы\Lexical</Filter>
+    </ClCompile>
+    <ClCompile Include="Syntaxes\SyntaxAnalyser.cpp">
+      <Filter>Исходные файлы\Syntaxes</Filter>
+    </ClCompile>
+    <ClCompile Include="Semantics\SemanticTree.cpp">
+      <Filter>Исходные файлы\Semantics</Filter>
+    </ClCompile>
+    <ClCompile Include="Semantics\Node\FuncData.cpp">
+      <Filter>Исходные файлы\Semantics\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Semantics\Node\Node.cpp">
+      <Filter>Исходные файлы\Semantics\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Semantics\Node\VarData.cpp">
+      <Filter>Исходные файлы\Semantics\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Magazine.cpp">
+      <Filter>Исходные файлы\Syntaxes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Types\DataType.h">
+      <Filter>Файлы заголовков\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\LexemeType.h">
+      <Filter>Файлы заголовков\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\SemanticType.h">
+      <Filter>Файлы заголовков\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexical\Lexeme.h">
+      <Filter>Файлы заголовков\Lexical</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexical\Scanner.h">
+      <Filter>Файлы заголовков\Lexical</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexical\SourceText.h">
+      <Filter>Файлы заголовков\Lexical</Filter>
+    </ClInclude>
+    <ClInclude Include="Syntaxes\SyntaxAnalyser.h">
+      <Filter>Файлы заголовков\Syntaxes</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\AnalysisExceptions.h">
+      <Filter>Файлы заголовков\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Semantics\SemanticTree.h">
+      <Filter>Файлы заголовков\Semantics</Filter>
+    </ClInclude>
+    <ClInclude Include="Semantics\Node\DataValue.h">
+      <Filter>Файлы заголовков\Semantics\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Semantics\Node\FuncData.h">
+      <Filter>Файлы заголовков\Semantics\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Semantics\Node\Node.h">
+      <Filter>Файлы заголовков\Semantics\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Semantics\Node\NodeData.h">
+      <Filter>Файлы заголовков\Semantics\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Semantics\Node\VarData.h">
+      <Filter>Файлы заголовков\Semantics\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Magazine.h">
+      <Filter>Файлы заголовков\Syntaxes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
